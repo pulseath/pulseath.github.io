@@ -3,10 +3,10 @@
 
 # Site settings
 title: pulseath
-description: |
+description: 
   We Have Your Back!
 owner: Pulseath # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
+first_published: 2019 # if migrating another site, the year of your first publish
 email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
