@@ -3,9 +3,14 @@ layout: default
 ---
 <article id="main">
 
-  <header>
+  <header {% if page.featured-img %} style="background-image: url('{{ page.featured-img }}');background-size: cover;
+  background-position: center;" {% endif %}>
+
+
     <h2>{{ page.title }}</h2>
-    <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+
+    <!-- Include your post title, byline, date, and other info inside the header here. -->
+
   </header>
 
   <section class="wrapper style5">

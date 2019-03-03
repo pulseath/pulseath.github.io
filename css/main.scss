@@ -1483,11 +1483,12 @@ $baseurl: '{{ site.baseurl }}/images';
 		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'center');
 		cursor: default;
-		height: 100vh;
+		// height: 100vh;
 		min-height: 35em;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		padding-right: 50%;
 
 		h2 {
 			@include vendor('transform', 'scale(1)');
@@ -1524,6 +1525,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		p {
 			letter-spacing: _size(letter-spacing-alt);
 			text-transform: uppercase;
+			text-align: center
 
 			a {
 				color: inherit;
