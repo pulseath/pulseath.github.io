@@ -7,23 +7,26 @@
 -->
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
+  <!-- Page Wrapper -->
+  <div id="page-wrapper">
 
-      {% include header.html %}
+    {% include header.html %}
 
-      {{ content }}
+    {{ content }}
 
-      {% include footer.html %}
+    {% include footer.html %}
 
-      {% include scripts.html %}
+    {% include scripts.html %}
 
-    </div>
-
-  </body>
+  </div>
+  {% include analytics.html %}
+  {% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+</body>
 
 </html>
